@@ -1,0 +1,9 @@
+.socialNetwork {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 30px;
+}
+.socialNetwork a {
+    color: rgb(161, 172, 182);
+}

@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+
+    .main_image_mobile {
+        position: relative;
+        width: 100%;
+        padding-top: 90px;
+    }
+
+    .main_image_mobile::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(1turn, #000, rgba(255, 217, 0, 0) 50%);
+    }
+
+    .main_image_mobile img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .description_wrapper {
+        width: 100%;
+        background-color: #100f1b;
+    }
+
+    .description {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 550px;
+        margin: -40px auto 0;
+        padding: 25px;
+    }
+
+    .description h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 106.5%;
+        text-shadow: 0 0 20px #000;
+        color: #fff;
+        text-align: center;
+    }
+
+    .description p {
+        font-size: 16px;
+        line-height: 140%;
+        margin-bottom: 30px;
+        text-shadow: 0 0 20px #000;
+        color: #fff;
+        text-align: center;
+    }
+
+    .description a {
+        text-decoration: none;
+        color: #fff;
+        background-color: #6b63b5;
+        padding: 15px 35px;
+        border-radius: 25px;
+    }
+
+    .maps {
+        display: grid;
+        padding: 20px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+        background-color: #12111f;
+    }
+
+    .maps_item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maps_item_image {
+        position: relative;
+    }
+
+    .maps_item_image::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(1turn, #000, rgba(255, 217, 0, 0) 50%);
+    }
+
+    .maps_item_image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .maps_item h3 {
+        background-color: #000;
+        font-size: 10px;
+        color: #ecbf77;
+        padding: 0 8px;
+        padding-bottom: 5px;
+    }
+
+    .maps_item p {
+        background-color: #000;
+        flex-grow: 2;
+        color: #fff;
+        font-size: 12px;
+        padding: 0 8px;
+        padding-bottom: 25px;
+    }
+
+    .down_fon {
+        background-image: url('../../assets/image/загруженное.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 100% 0;
+        height: 20px;
+    }
+
+    .poll {
+        width: 100%;
+        padding: 60px 20px;
+        box-sizing: border-box;
+        background-color:#14101d;
+        background-image: url('../../assets/image/stars.png'), url('../../assets/image/horizons_mobile_village.png');
+        background-repeat: no-repeat;
+        background-size: 100% 50%, 100% 35%;
+        background-position: 100% -30%, 50% bottom;
+    }
+    .poll_wrapper {
+        max-width: 520px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        background-image: url('../../assets/image/wrapper.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+       
+    }
+    .poll_content {
+        display: flex;
+        flex-direction: column;
+        padding: 30px 20px;
+        align-items: center;
+    }
+    .poll_content p {
+        position: relative;
+        color: #ecbf77;
+        margin-bottom: 20px;
+    }
+    .poll_content p::after {
+        position: absolute;
+        content: '';
+        width: 15px;
+        height: 2px;
+        background-color: #ecbf77;
+        right: -20px;
+        bottom: 10px;
+    }
+    .poll_content p::before {
+        position: absolute;
+        content: '';
+        width: 15px;
+        height: 2px;
+        background-color: #ecbf77;
+        left: -20px;
+        bottom: 10px;
+    }
+    .poll_content h2 {
+        text-align: center;
+        font-size: 21px;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+    .poll_button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 6px;
+        margin-bottom: 25px;
+    }
+    .poll_button button {
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #ecbf77;
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+    }
+
+}
